@@ -1,0 +1,40 @@
+/* Headings */
+.jumbotron {
+    color: rgb(112, 186, 164);
+}
+.display-4{
+    font-family:'Playfair Display', serif;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px lightsalmon;
+}
+.headings {
+    font-family:'Playfair Display', serif;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin: 50px;
+    text-shadow: 2px 2px 5px lightsalmon;
+}
+/* body */
+.headShot{
+    float: left;
+    margin-right: 15px;
+}
+.text {
+    margin-left: 30px;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    width: 85%;
+}
+/* Footer */
+footer {
+    padding: 50px;
+    margin: 0 auto;
+}
+.card-body2 {
+    background-color: lightsalmon;
+    opacity: 70%;
+    font-family: Roboto;
+    font-weight: bold;
+    color: darkgreen;
+}

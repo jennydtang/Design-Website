@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--The below meta tag <meta charset= "UTF-8"> enables the HTML document to support all the languages that exist on Earth. Without this tag, a browser may not be able to correctly display any characters that don't belong to the basic Latin alphabet. -->
+        <meta charset="utf-8">
+        <!--The below meta tag tells intertnet explorer to use the latest rendering engine -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- This below meta tag sets the page width to the size of the device and sets the zoom width to 1 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <!-- My custom css stylesheet link is below -->
+        <link rel="stylesheet" href="portfolio.css">
+        <!-- This will be the name of our page as it shows up in our tab -->
+        <title>Jenny Tang</title>
+        <!-- Latest compiled and minified Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- CDN for Glyphicons. A CDN is a service that accelerates internet content delivery -->
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Theme -->
+        <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/minty/bootstrap.min.css" rel="stylesheet" integrity="sha384-4HfFay3AYJnEmbgRzxYWJk/Ka5jIimhB/Fssk7NGT9Tj3rkEChpSxLK0btOGzf2I" crossorigin="anonymous">    </head>
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+        
+        <body>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class= "rounded-circle" src="data:image/jpeg;base64,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" alt="logo" width=3% height=3%>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<!-- Header -->
+<div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="display-4">I'm Jenny Tang!</h1>
+      <p class="lead">This is a page for my business to create websites for small business owners. I love meeting being with big dreams and helping them acheive them!</p>
+    </div>
+  </div>
+<!-- Info Paragraph -->
+    <div class="container">
+            <div class="headings">jenny's design</div>
+            <div class="headShot">
+                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGh-zuqi5ErVg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=VmTuXLbsSVqQR4e8o3WAgGoRZ1bsjJhREoO2IcVQAT4" class="rounded float-left" alt="headShot">
+            </div>
+            <div class="text">This would be a paragraph about my journey into design. For now, I'm using cat ipsum. Show belly howl uncontrollably for no reason yet chew the plant yet going to catch the red dot today going to catch the red dot today but purrrrrr and carefully drink from water glass and then spill it everywhere and proceed to lick the puddle  so i heard this rumor where the humans are our owners, pfft, what do they know?!. Purr for no reason purr as loud as possible, be the most annoying cat that you can, and, knock everything off the table. The door is opening! how exciting oh, it's you, meh spill litter box, scratch at owner, destroy all furniture, especially couch for walk on car leaving trail of paw prints on hood and windshield and eat owner's food so i will ruin the couch with my claws, and jump around on couch, meow constantly until given food
+            </div>
+        </div>
+    </div>
+<!-- Portfolio Section -->
+
+<div class="headings">portfolio</div>
+
+<!-- Columns -->
+<div class="container"> 
+    <div class="row">
+      <div class="col-sm-4"style="width: 18rem;">
+        <img class ="rounded" src="https://ksr-ugc.imgix.net/assets/028/056/995/3c8c1eda465d88d4787d040eba7d61ba_original.jpg?ixlib=rb-2.1.0&crop=faces&w=1024&h=576&fit=crop&v=1581456331&auto=format&frame=1&q=92&s=4b0d286e86f427a4b40467746f7ee3f8" class="card-img-top" alt="neighbor app" height=200px width=320px>
+        <div class="card-body">
+          <h5 class="card-title">Neighborly App</h5>
+          <p class="card-text">Created an app so that you can find out how to help your neighbors during the Corona Virus quarantine.</p>
+          <a href="#" class="btn btn-primary">Click on Link</a>
+      </div>       
+    </div>
+    <div class="col-sm-4" style="width: 18rem;">
+        <img class ="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcThQyHJYWSKWYOUzJ-JcIUU5nAETOuBQEEAyzQORCCfmIOMptAB" class="card-img-top" alt="food logo" height=200px width=320px>
+        <div class="card-body">
+        <h5 class="card-title">Fridge Planner App</h5>
+        <p class="card-text">Do you end up throwing out a lot of food? Try my app to keep track of foods you buy and recipe suggestions to use up your food.</p>
+        <a href="#" class="btn btn-primary">Click on Link</a>
+        </div>
+    </div>
+    <div class="col-sm-4" style="width: 18rem;">
+        <img class="rounded" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSPSUlnrzqutm_6ymWy7DFaMfVb4_1HP5joUd1CuRRKhdicIvUw" class="card-img-top" alt="budget" height=200px width=320px>
+        <div class="card-body">
+        <h5 class="card-title">Budgify</h5>
+        <p class="card-text">I created this app that will show exactly where your money is going and where you can decrease spending.</p>
+        <a href="#" class="btn btn-primary">Click on Link</a>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer>
+<div class="quote">
+    <div class="card-header">
+      Positive Vibes
+    </div>
+    <div class="card-body2">
+      <blockquote class="blockquote mb-0">
+        <p>“In a world where you can be anything, <strong>be kind</strong>.”</p>
+        <p class="blockquote-footer">Jennifer Dukes Lee</p>
+      </blockquote>
+    </div>
+  </div>
+  <p>To contact me, email me <a href="mailto:jennydtang@gmail.com?subject=Let's Chat">here.</p>
+  </footer>    
+</body>
+</html>
